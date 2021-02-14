@@ -1,0 +1,13 @@
+print('CCCR')
+print('please give s.calcium')
+SC = float(input())
+print('please give u.calcium')
+UC = float(input())
+print('please give s.creatinine')
+SCr = float(input())
+print('please give u.creatinine')
+UCr = float(input())
+CCCR = (UC * SCr) / (SC * UCr)
+print('the CCCR is', CCCR)
+if CCCR > 0.01:
+	print('this is likely to be primary PTH')
